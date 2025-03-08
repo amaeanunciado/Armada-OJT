@@ -1,0 +1,69 @@
+<!--done almost an hr -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Survey form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Survey Form</h1>
+            <p>Please answer all the questions below! For multiple-choice questions, you may select more than one answer if applicable.</p>
+        </header>
+        <form>
+            <section>
+                <h3>Personal Information</h3>
+                <p>Please provide your details:</p>
+                
+                <label>Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+                <label>Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+            </section>
+
+            <fieldset>
+                <legend><h4> How Satisfied are you with our service?</h4></legend>
+                <input type="radio" id="very_satisfied" name="rate_experience">
+                <label for="very_satisfied">Very Satisfied</label>
+                <input type="radio" id="satisfied" name="rate_experience">
+                <label for="satisfied">Satisfied</label>
+                <input type="radio" id="neutral" name="rate_experience">
+                <label for="neutral">Neutral</label>                
+                <input type="radio" id=dissatisfied name="rate_experience">
+                <label for="dissatisfied"> Dissatisfied</label>                
+                <input type="radio" id="very_dissatisfied" name="rate_experience">
+                <label for="very_dissatisfied">Very Dissatified</label>
+            </fieldset>
+
+            <fieldset>
+
+                <legend><h4>What Features do you value most?</h4></legend>               
+                <input type="checkbox" id="easy_to_use" name="Easy to use">
+                <label for="easy_to_use">Easy to Use</label>
+                <input type="checkbox" id="design" name="Design">
+                <label for="design">Design</label>
+                <input type="checkbox" id="customer_support" name="Customer Support">
+                <label for="customer_support">Customer Support</label>
+            </fieldset>   
+            <section>
+                <h4>What best describes you? </h4>              
+                <select id="bestdescribe" name="bestdescribe">
+                    <option value="student">Student</option>
+                    <option value="professional">Professional</option>
+                    <option value="hobbyist">Hobbyist</option>
+                    <option value="other">Other</option>
+                </select>
+            </section>
+            <section>
+                <h4>Additional Comments or Suggestions:</h4>
+                <textarea id="feedback" name="feedback"></textarea>
+            </section>
+
+            <footer> 
+                <button type="submit" value="submit" style="display: block;"> Submit</button>
+            </footer>
+        </form>
+    </body>
+</html>
+

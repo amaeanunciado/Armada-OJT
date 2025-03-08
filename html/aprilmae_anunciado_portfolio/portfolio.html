@@ -1,0 +1,110 @@
+<!--Done in 1 hr & 14 min-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to my Portfolio</h1>
+            <nav>
+                <ul>
+                   <li><a href="#" style="display: block;"> Home</a></li> 
+                   <li><a href="#" style="display: block;">About Me</a></li> 
+                   <li><a href="#">Projects</a></li> 
+                </ul>
+                
+            </nav>    
+        </header>
+        <main>
+            <section>
+                <h2>About Me</h2>
+                <p>I’m a 4th-year Computer Engineering Student in Bohol Island State University Main Campus with a passion for technology, innovation, and problem-solving. I enjoy working with hardware and software, exploring new programming languages, and diving into projects that challenge my skills. </p>
+                <img src="img/Screenshot.png" alt="profilepic">
+            </section>
+            <section>
+                <h3>My Projects</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Year</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>AC-DC Converter</td>
+                            <td>Made electronic circuit that converts AC to DC with an output range of  3v-12v</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>FablabAR++</td>
+                            <td>Developed an augmented reality application for Fablab Bohol </td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>AR Measuring Tape</td>
+                            <td> Built an app that measure accurate distances in a real world.</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>3 Bit BCD Multiplier</td>
+                            <td>Built an digital circuit designed to multiply two 3-bit numbers </td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Sumobot</td>
+                            <td>Built autonomous robot designed for sumo competitions and pathfinder</td>
+                            <td>2024</td>
+                        </tr>
+                        <tr>
+                            <td>Traffic Sign Recognition System using CNN</td>
+                            <td>Created a system that designed to identify traffic signs using real time camera.</td>
+                            <td>2024</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <form>
+                <section>
+                    <h4>Contact Me</h4>
+                    <label for="name"> Full Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+                    <label for="email"> Email Address: </label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </section>
+                <fieldset>
+                    <legend><h5>How did you hear about this portfolio?</h5></legend>
+                    <input type="radio" name="how" id="friend">
+                    <label for="friend">Friend</label>
+                    <input type="radio" name="how" id="socialmedia">
+                    <label for="socialmedia">Social Media</label>
+                    <input type="radio" name="how" id="searchengine" >
+                    <label for="searchengine">Search Engine</label>
+                    <input type="radio" name="how" id="other" >
+                    <label for="other">Other</label>
+                </fieldset>
+                <fieldset>
+                    <legend><h5>Skills/Interest</h5></legend>
+                    <input type="checkbox" name="skills" id="webdev">
+                    <label for="webdev">Web Development</label>
+                    <input type="checkbox" name="skills" id="design">
+                    <label for="design">Design</label>
+                    <input type="checkbox" name="skills" id="photography">
+                    <label for="photography">Photography</label>
+                </fieldset>
+                <section>
+                    <h5>Comments or Suggestions</h5>
+                    <textarea name="comments" id="comments"></textarea>
+                </section>
+                    <button type="submit" name="submit" id="submit">Submit</button>
+            </form>
+        </main>
+        <footer>
+            <p>© April Mae Anunciado 2025</p> 
+        </footer>
+    </body>
+</html>

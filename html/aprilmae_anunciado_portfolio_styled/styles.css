@@ -1,0 +1,110 @@
+/*Done in 1 hr and 40 min*/
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin: 2;
+    padding: 10px;
+}
+header{
+    background-color:cornsilk;
+    color:fuchsia;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+
+ul{
+    padding: 20px;
+    justify-content: center;
+}
+nav ul li{
+    display: inline;
+}
+
+article {
+    background-color:azure;
+    color: black;
+    border-radius: 10px; 
+    padding: 10px;
+    text-align:center;
+    line-height: 20px;
+
+}
+article h2{
+    font-weight: bold;
+    color: blueviolet;
+}
+    
+img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+main h3{
+    text-align: center;
+    color: blueviolet;
+}
+main section:nth-child(2){
+    
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color:floralwhite;
+    border-radius: 10px;
+    color:black;
+    padding-bottom: 20px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width:90%;
+    text-align: center;
+}
+thead{
+    background-color:darksalmon;
+}
+th{
+    border: 3px solid black;
+}
+tbody{
+    background-color: bisque;
+    text-align: center;
+}
+td{
+    border: 2px solid black;
+    font-size: medium;
+}
+form{
+    border-radius: 20px;
+    background-color:aliceblue;
+    text-align: center;
+    line-height: 20px;
+}
+form h4{
+    color: blueviolet;
+}
+form section {
+    margin: 3;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+form fieldset{
+    text-align: center;
+}
+button{
+    background-color:cyan;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    border-top: 20px;
+    border-radius: 20px;
+    font-size: 12px;
+}
