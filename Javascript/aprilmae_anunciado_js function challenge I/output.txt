@@ -1,0 +1,26 @@
+Output
+
+Challenge 1
+
+    Sum: 10
+
+Challenge 2
+
+    true
+    false
+    true
+
+Challenge 3
+
+    Hello, Alice!
+    Hello, Bob!
+    Hello, Charlie!
+
+Challenge 4
+
+    [ 30, 20, 10 ]
+    [ 10, 20, 30 ]
+
+Challenge 5
+
+    [ [ 2, 4 ], [ 6, 8 ] ]

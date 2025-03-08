@@ -1,0 +1,23 @@
+Challenge 1
+    1
+    1 2
+    1 2 3
+
+Challenge 2
+    [40,20,30,10]
+    [10,20,30,40]  //i was wrong here, i thought it would go back to original array but then i then realized it would be the updated values. it should be [40,10,20,30]
+
+Challenge 3
+    [60,45,85,90]
+Challenge 4
+    [id:1, true, id:2, false]
+    [id:1, true, id:2, false]
+my answer is correct but lack of curly braces
+//answer should be 
+[ { id: 1, completed: true }, { id: 2, completed: false } ]
+[ { id: 1, completed: true }, { id: 2, completed: false } ]
+
+Challenge 5
+
+Found at index 1
+Not found

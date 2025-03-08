@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    color: black;
+    margin-top: 50px;
+}
+
+main {
+    background: #F9F9F9;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid black;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+#depositButton {
+    background-color: green;
+    color: white;
+}
+
+#withrawButton {
+    background-color: red;
+    color: white;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.success {
+    color: green;
+}
+.error{
+    color: red;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: start;
+    gap: 5px;
+}
+li{
+    display: flex;
+    background-color: #E0E0E0;
+    padding: 5px;
+    border-radius: 5px;
+    
+
+
+}
