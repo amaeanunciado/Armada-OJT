@@ -1,0 +1,7 @@
+-I struggled on how to grow the bleft panel like the example image. I thought flex:grow will do but it wont
+-I solved it with flex:200;
+
+-Also Im having hard time text centered the text in the footer section because i use justify-content without having display:flex
+-I replace it with text-align:center then it center. But I also try to put display:flex on it but it won't center so I put back the justify-content:center wuth display:flex so it center
+
+-it took me 2 hrs and half i think

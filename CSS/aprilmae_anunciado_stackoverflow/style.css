@@ -1,0 +1,214 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    width: 160px;
+    height: 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 10px;
+    border-bottom: 0.5px solid rgb(178, 177, 177);
+    border-top: 4px solid #e7700d;
+    padding-left: 100px;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding-left: 15px;
+    color: rgb(92, 88, 88);
+}
+.search-container{
+    padding-left: 10px;
+}
+#search{
+    padding: 5px;
+    padding-right: 475px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#log-in{
+    border-radius: 5px;
+    padding-inline: 20px;
+    border: 1px solid hsl(210,77%,46%);
+    padding: 5px;
+    color:hsl(210,77%,46%);
+    background-color: transparent;
+
+}
+#sign-up{
+    border-radius: 5px;
+    padding-inline: 20px;
+    border: 1px solid hsl(210,77%,46%);
+    padding: 5px;
+    color:white;
+    background-color:hsl(210,77%,46%);
+}
+.side-panel{
+    display: flex;
+    flex-direction: column;
+    padding-left: 65px;
+    padding-right: 95px;
+    font-size: 13px;
+
+}
+.side-panel ul li{
+    display: flex; 
+    padding-top: 10px;
+}
+.side-panel a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+.side-panel li:hover, nav li:hover{
+    background-color: rgb(231, 230, 230);
+    border-radius: 5px;  
+}
+
+.upper{
+    display: flex;
+}
+.upper-container{
+    border: 1px solid rgb(252, 246, 246) ;
+    background-color:#f6f8f8 ;
+    width: 910px;
+    text-align:left;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.textt h1{
+    max-width:200%;
+    font-size: 26px; 
+}
+.textt p{
+    max-width:100%;
+}
+.highlight{
+    background-image: url(img/background-image-removebg-preview.png);
+    padding: 5px;
+    padding-inline: 40px;
+    color: white;
+}
+
+.upper-container img{
+    margin: 20px auto;
+    max-width: 55%; 
+    height: auto;
+}
+
+.sign-up-btn button, .explore button,.advertising button, .overflow-api button,.stackoverflow-section button{
+    color: white;
+    background-color:hsl(210,77%,46%) ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.sign-up-btn button:hover, #sign-up:hover, #log-in:hover,.explore button:hover, .stackoverflow-section button:hover,.overflow-api button:hover,.advertising button:hover{
+    background-color:hsl(210, 77%, 37%);
+}
+.sign-up-btn a{
+    text-decoration: none;
+    color: hsl(210,77%,46%);
+    padding-left: 10px;
+}
+.sign-up-btn a:hover, .explore a:hover, .advertising a:hover{
+    text-decoration: underline;
+    color: hsl(210, 76%, 38%) ;
+
+}
+.page, footer{
+    margin-left: 290px;
+    margin-top: 10px; 
+    margin-right: 200px;
+    margin-bottom: 50px;
+}
+.second-container, .last-container{
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.second-container img,.overflow-ai img, .advertising img{
+    width: 170px;
+    height: 80px;
+}
+.explore, .overflow-ai,.advertising,.overflow-api,.stackoverflow-section,.advertising button{
+    padding-inline: 20px;
+}
+.explore p{
+    width: 85%;
+}
+.explore a,.advertising a {
+    color: hsl(210,77%,46%) ;
+    padding-left: 10px;
+}
+.second-container .hometeam img,.overflowai-img img {
+    width: 420px;
+    height: 170px;
+    padding-top: 30px;
+}
+.third-container{
+    display: flex;
+    justify-content: space-between; 
+    background-color: #3b4045;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.overflow-ai p{
+    color: white;
+}
+.overflow-ai button{
+    background-color: #e7700d;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+.overflow-ai button:hover{
+    background-color: #ce620a
+}
+.overflow-ai span{
+    font-weight: bolder;
+}
+.fourth-container, .fifth-container{
+    display: flex;
+    justify-content: space-between; 
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding-left: 20px;
+    width: 50%;
+    margin-top: 20px;
+    padding-bottom: 10px;  
+}
+.fourth-container p{
+    padding-bottom: 10px;
+}
+.fifth-container{
+    padding-bottom: 20px;
+}
+.overflow-api img{
+    width: 170px;
+    height: 70px;
+}
+article{
+    display: flex; 
+    gap: 20px;
+
+}
+.career-img img{
+    width: 420px;
+    height: 200px;
+}

@@ -1,0 +1,290 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+header{
+    background-color: #383e46;
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 14px;  
+}
+
+header nav ul, main ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header nav a:hover, #sign-in:hover, #sign-up:hover{
+    color: #7c7f85;
+    padding-block: 10px;
+    border-radius: 5px;
+}
+.search-container{
+    padding-left: 10px;
+}
+.input-image{
+    background: url(github/icons/svgexport-14.png) no-repeat left center, url(github/icons/svgexport-15.png) no-repeat right center;
+    background-size: 20px;
+    padding-left: 30px;
+
+}
+#search{
+    padding: 5px;
+    margin-left: 260px;
+    border-radius: 5px;
+    border: 1px solid rgb(190, 187, 187);
+    background-color: transparent; 
+    padding-right: 200px;
+    color: white;
+    margin-right: 10px;
+}
+#sign-in{
+    border-radius: 5px;
+    padding-inline: 20px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-right: 10px;
+
+}
+#sign-up{
+    border-radius: 5px;
+    padding-inline: 20px;
+    border: 1px solid gray;
+    padding: 5px;
+    color:white;
+    background-color:transparent;
+}
+#sign-in button:hover{
+    background-color: antiquewhite;
+}
+main nav{
+    display: flex;
+    justify-content: center;
+
+}
+main nav a .explore,main nav a:hover,#search::placeholder{
+    color: white;
+}
+main nav ul li:first-child a {
+    color: white;
+    border-bottom-color:1 px solid #0860ca;
+    text-decoration: underline;
+    text-decoration-color: #0860ca;
+    text-underline-offset: 15px;
+}
+
+main nav a, footer a{
+    text-decoration: none;
+    color: #7c7f85;
+}
+main h4{
+    color: gray;
+    margin-inline: 490px;
+}
+.main-container{
+    display: flex;
+    gap: 40px;
+}
+aside img{
+    width: 600px;
+    height: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 490px;
+}  
+
+.bytes-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+.bytes-container img, section img{
+    width: 40px;
+    height: 40px;
+}
+aside h6, section h6{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+aside p, aside h6, .game-engines p,section h6{
+    color: gray;
+    padding-inline: 20px;
+}
+aside a, .game-engines a{
+    color: #0860ca;
+    text-decoration: none;
+    padding-inline: 20px;
+}
+
+main .trending-developers{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #161b22;
+    height: 509px;
+ 
+}
+article li{
+    border-top: 1px solid #30363d;
+}
+article ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+}
+article p{
+    color: white;
+    padding-left: 10px;
+    font-size: 14;
+}
+
+.developer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.developer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+article li a{
+    display: flex;
+    flex-direction: column;
+    color: #0860ca;
+    text-decoration: none;
+    padding-left: 9px;
+    font-size: 14px;
+    margin-right: 30px;
+   
+}
+.see-more{
+    font-size: 14px;
+    padding-block: 13px;
+   ;
+}
+.dev-info h3 {
+    margin: 0;
+    
+}
+
+.dev-info p {
+    font-size: 12px;
+    margin: 2px 0;
+    color: #8b949e;
+    margin-bottom: 10px;
+}
+
+.repo {
+    font-size: 12px;
+    color: #c9d1d9;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.repo img{
+    width: 20px;
+    height: 20px;
+}
+
+main section{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 600px;
+    margin-inline: 490px;
+    margin-top: 20px;
+}
+.game-engines {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+    border-radius: 8px;
+    padding-top: none;
+}
+
+.hashtag{
+    border-radius: 10px;
+    background-color: rgb(41, 41, 78);
+    width: 160px;
+    height: 180px;
+    color: rgb(185, 183, 183);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.collection{
+    font-size: 14px;
+    color: #58a6ff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px; 
+    padding-block: 50px;
+    padding-left: 0;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+}
+
+footer p{
+    color: gray;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+

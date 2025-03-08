@@ -1,0 +1,122 @@
+body{
+    font-family:sans-serif;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: blueviolet;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+header img{
+    width: 50px;
+    height: 40px;
+    padding-left: 30px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.nav-link ul{
+    display: flex;
+    gap:15px;
+    list-style-type: none;
+    padding: 5px;
+   
+}
+.nav-link a {
+    color:white ;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(158, 88, 225);
+    padding: 3px 20px;
+    border-radius:5px; 
+    margin-left: 260px; 
+}
+.search-input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.search-input::placeholder {
+    color: white;
+    font-size: 13px;
+}
+main img{
+    height: 180px;
+    width: 200px;
+}
+main{
+    width: 550px;
+    text-align: center;
+    margin-top: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main h1, footer h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+main p, footer p  {
+    color: gray;
+    justify-content: center;
+    text-align: center;
+}
+
+#bootstrap, button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+button{
+    background-color: rgb(135, 11, 251);
+}
+main ul{
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 12px; 
+}
+main a{
+    color: gray;
+    text-decoration: underline;
+    gap: 15px;
+}
+.bottom-panel img{
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    width: 550px;
+}
