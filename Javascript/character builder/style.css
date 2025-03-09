@@ -1,0 +1,47 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.character-base {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    right: 100px;
+}
+.character-base img {
+    position: absolute;
+    width: 180px;
+    height: 210px;
+}
+#helmet { 
+    top: 0;
+}
+#armor {
+    top: 140px;
+}
+#leggings {
+    top: 290px;
+}
+#boots {
+    top: 420px; 
+}
+
+.selection-menu img {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    background: #444;
+    padding: 10px;
+    border-radius: 8px;
+}
+.selected {
+    border: 3px solid cyan;
+}
